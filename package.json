@@ -1,0 +1,32 @@
+{
+  "name": "bloxauth-win",
+  "version": "1.0.0",
+  "description": "Authenticate Roblox users via Windows registry cookies",
+  "main": "./lib/bloxauth.js",
+  "scripts": {
+    "test": "exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClockworkSquirrel/bloxauth-win.git"
+  },
+  "keywords": [
+    "roblox",
+    "auth",
+    "authentication",
+    "windows",
+    "registry",
+    "cookies"
+  ],
+  "author": "clockworksquirrel (https://github.com/clockworksquirrel)",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ClockworkSquirrel/bloxauth-win/issues"
+  },
+  "homepage": "https://github.com/ClockworkSquirrel/bloxauth-win#readme",
+  "dependencies": {
+    "rage-edit": "^1.0.6",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
